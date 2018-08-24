@@ -5,8 +5,6 @@ title: "Hello, Gatsby"
 excerpt: "Hello this is my first post"
 ---
 
-# Hello, Gatsby
-
 I'm probably overengineering this blog, but that's okay. This has been a fun
 learning experience, I get to use a technology that I like to use (React) while
 also learning some new ones (GraphQL). Right now I'm writing this post in
