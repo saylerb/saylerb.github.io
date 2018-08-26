@@ -16,6 +16,7 @@ const IndexPage = () => (
               node {
                 id
                 frontmatter {
+                  path
                   title
                   date
                 }
@@ -31,7 +32,13 @@ const IndexPage = () => (
         return (
           <ul>
             {data.allMarkdownRemark.edges.map(edge => {
-              return <li key={edge.node.id}>{edge.node.frontmatter.title}</li>;
+              return (
+                <li key={edge.node.id}>
+                  <Link to={edge.node.frontmatter.path}>
+                    {edge.node.frontmatter.title}
+                  </Link>
+                </li>
+              );
             })}
           </ul>
         );
