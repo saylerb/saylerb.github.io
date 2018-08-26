@@ -7,7 +7,7 @@ import { StaticQuery, graphql } from "gatsby";
 const IndexPage = () => (
   <Layout>
     <h1>Hi there</h1>
-    <p>Welcome to my personal site. Blog posts coming soon:</p>
+    <p>Welcome to my personal site.</p>
     <StaticQuery
       query={graphql`
         query BlogPostQuery {
@@ -32,6 +32,7 @@ const IndexPage = () => (
         return (
           <ul>
             {data.allMarkdownRemark.edges.map(edge => {
+              console.log("Path:", edge.node);
               return (
                 <li key={edge.node.id}>
                   <Link to={edge.node.frontmatter.path}>
@@ -44,7 +45,6 @@ const IndexPage = () => (
         );
       }}
     />
-    <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 );
 

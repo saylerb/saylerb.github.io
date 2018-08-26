@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../components/layout";
-import { graphql } from "gatsby";
+import { graphql, Link } from "gatsby";
 
 export default function Template({ data }) {
   const { markdownRemark: post } = data;
@@ -12,6 +12,7 @@ export default function Template({ data }) {
         <h2>{post.frontmatter.date}</h2>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
+      <Link to="/">Go back to the homepage</Link>
     </Layout>
   );
 }
