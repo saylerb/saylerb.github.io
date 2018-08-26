@@ -3,6 +3,7 @@ path: "/hello-gatsby"
 date: "2018-08-17"
 title: "Hello, Gatsby"
 excerpt: "Hello this is my first post"
+published: true
 ---
 
 I'm probably overengineering this blog, but that's okay. This has been a fun
