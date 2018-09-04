@@ -13,7 +13,7 @@ const IndexPage = () => (
         query BlogPostQuery {
           allMarkdownRemark(
             filter: { frontmatter: { published: { eq: true } } }
-          ){
+          ) {
             edges {
               node {
                 id

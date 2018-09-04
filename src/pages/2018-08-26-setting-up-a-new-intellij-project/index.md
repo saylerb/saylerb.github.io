@@ -24,7 +24,7 @@ you want to download an older version of Java, you'll have to make some
 adjustments to the installation instructions. For example, if you want to
 download Java 8 on a Mac with the Homebrew package manager. You can do:
 
-```bash
+```
 brew tap caskroom/versions
 brew cask install java8
 ```
