@@ -9,7 +9,7 @@ export default function Template({ data }) {
     <Layout>
       <div>
         <h1>{post.frontmatter.title}</h1>
-        <h2>{post.frontmatter.date}</h2>
+        <h3>{post.frontmatter.date}</h3>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
       <Link to="/">Go back to the homepage</Link>
@@ -23,6 +23,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         path
+        date
         title
       }
     }

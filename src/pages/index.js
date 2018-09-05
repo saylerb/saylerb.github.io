@@ -37,6 +37,8 @@ const IndexPage = () => (
               console.log("Path:", edge.node);
               return (
                 <li key={edge.node.id}>
+                  <span>
+                    {edge.node.frontmatter.date} </span>
                   <Link to={edge.node.frontmatter.path}>
                     {edge.node.frontmatter.title}
                   </Link>
