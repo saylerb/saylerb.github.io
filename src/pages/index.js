@@ -34,7 +34,6 @@ const IndexPage = () => (
         return (
           <ul>
             {data.allMarkdownRemark.edges.map(edge => {
-              console.log("Path:", edge.node);
               return (
                 <li key={edge.node.id}>
                   <span>
