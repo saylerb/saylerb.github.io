@@ -5,9 +5,8 @@ date: "2018-09-11"
 published: true
 ---
 
-### What is event bubbling? Event capture?
+### What is event bubbling?
 
-#### Event bubbling
 Web browsers need an algorithm for managing events that happen on the DOM.  For
 example, the browser listens for the user clicking the mouse, and when the
 mouse is clicked, an event is fired off which contains the information about
@@ -26,8 +25,6 @@ application, because it allows for one listener to react to many events. But it
 also helps work with common problems seen in UI programming, where elements may
 be added and removed from the page dynamically (and even after the initial page
 load), so we need a dynamic way to handle those events.
-
-#### Event capture
 
 ### How does this tie into event delegation?
 
