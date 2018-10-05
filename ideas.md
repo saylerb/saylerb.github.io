@@ -5,3 +5,4 @@
 * Technical communication is what distinguishes a Senior Developer
 * JavaScript testing strategies.
 * Reading code - we spend more time reading code than writing it.
+* Imperative vs. declarative coding styles
