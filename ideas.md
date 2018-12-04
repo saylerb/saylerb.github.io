@@ -9,3 +9,4 @@
 * How to publish to gh-pages (not the [username].github.io style)
 * Handling properties that exist on Object’s prototype (e.g. js word-count
   exercism exercise)
+* Explain javascript's sort e.g. `someArray.sort((a, b) => a - b)`
