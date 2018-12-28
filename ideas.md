@@ -11,3 +11,4 @@
   exercism exercise)
 * Explain javascript's sort e.g. `someArray.sort((a, b) => a - b)`
 * How does a lockfile really work?
+* Clever applications of Modular math (e.g. rocks paper scissors idea)
