@@ -12,3 +12,12 @@
 * Explain javascript's sort e.g. `someArray.sort((a, b) => a - b)`
 * How does a lockfile really work?
 * Clever applications of Modular math (e.g. rocks paper scissors idea)
+* How sso with ssh keys works, and how to fix the below error with `ssh-add`
+
+```
+git@github.aws.na.sysco.net: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+```
