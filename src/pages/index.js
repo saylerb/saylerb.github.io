@@ -6,7 +6,6 @@ import { StaticQuery, graphql } from "gatsby";
 
 const IndexPage = () => (
   <Layout>
-    <h1>Hi there</h1>
     <p>Welcome to my personal site!</p>
     <StaticQuery
       query={graphql`
