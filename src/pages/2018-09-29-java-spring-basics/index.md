@@ -1,7 +1,7 @@
 ---
-path: '/java-spring-basics'
-title: 'Java Spring Basics'
-date: '2018-09-29'
+path: "/java-spring-basics"
+title: "Java Spring Basics"
+date: "2018-09-29"
 published: false
 ---
 
@@ -19,4 +19,5 @@ set on the object after it is instantiated.
 What the hell is a Java Bean? For the longest time I was confused on this,
 and its silly because a cute name like Bean is really just that. A Bean is
 simply a Java Class. Technically a Bean has two simple requirements:
-1) A no-arg constructor, and 2) getters and setters on its fields.
+
+1. A no-arg constructor, and 2) getters and setters on its fields.

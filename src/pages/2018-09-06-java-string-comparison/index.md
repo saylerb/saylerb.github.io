@@ -5,7 +5,7 @@ date: "2018-09-06"
 published: true
 ---
 
-You usually don't want to compare strings using the `==` operator.  [This
+You usually don't want to compare strings using the `==` operator. [This
 StackOverflow
 post](https://stackoverflow.com/questions/767372/string-equals-versus/767379#767379)
 provides a good explaination. TR;DR is that sometimes the `==` will return what

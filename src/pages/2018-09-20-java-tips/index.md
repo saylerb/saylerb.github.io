@@ -16,5 +16,4 @@ System.out.println("valid input".equals(userInput)): // false  ahh, much better
 
 ### Use a set to remove duplicates or compare two collections ignoring order
 
-
 ### If you want an ordered map, you need to use a SortedMap.

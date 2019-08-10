@@ -1,13 +1,13 @@
 ---
-path: "/event-delegation" 
+path: "/event-delegation"
 title: "What is Event Delegation in JavaScript?"
-date: "2018-09-11" 
+date: "2018-09-11"
 published: true
 ---
 
 ### What is event bubbling?
 
-Web browsers need an algorithm for managing events that happen on the DOM.  For
+Web browsers need an algorithm for managing events that happen on the DOM. For
 example, the browser listens for the user clicking the mouse, and when the
 mouse is clicked, an event is fired off which contains the information about
 that action. For example, the action was of 'click' type, and the user clicked
@@ -53,9 +53,13 @@ same behavior by adding a single event handler on a common ancestor, which can
 listen to events that bubble up from its children:
 
 ```js
-   const messageElement = document.querySelector("#message");
-   document.querySelector('#list')
-     .addEventListener("click", event => messageElement.innerText = event.target.innerText);
+const messageElement = document.querySelector("#message");
+document
+  .querySelector("#list")
+  .addEventListener(
+    "click",
+    event => (messageElement.innerText = event.target.innerText)
+  );
 ```
 
 Reducing the number of event listeners in your code is a good practice! For
@@ -63,5 +67,5 @@ further reading, see these links below:
 
 ### Further reading
 
-* [MDN - Introduction to events](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events)
-* [How JavaScript Event Delegation Works](https://davidwalsh.name/event-delegate)
+- [MDN - Introduction to events](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events)
+- [How JavaScript Event Delegation Works](https://davidwalsh.name/event-delegate)
