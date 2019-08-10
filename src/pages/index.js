@@ -12,6 +12,7 @@ const IndexPage = () => (
       query={graphql`
         query BlogPostQuery {
           allMarkdownRemark(
+            sort: { fields: [frontmatter___date], order: ASC }
             filter: { frontmatter: { published: { eq: true } } }
           ) {
             edges {
