@@ -25,6 +25,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,css,json,md,yml}\"",
+    "format:check": "prettier --check \"**/*.{js,jsx,css,json,md,yml}\"",
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "gatsby build && gh-pages -b master -d public"
   },
