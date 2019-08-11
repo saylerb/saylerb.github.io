@@ -3,10 +3,11 @@ import { Link } from "gatsby";
 
 import Layout from "../components/layout";
 import { StaticQuery, graphql } from "gatsby";
+import styles from "./styles.css";
 
 const IndexPage = () => (
   <Layout>
-    <p>Welcome to my personal site!</p>
+    <p className="magenta">Welcome to my personal site!</p>
     <StaticQuery
       query={graphql`
         query BlogPostQuery {
