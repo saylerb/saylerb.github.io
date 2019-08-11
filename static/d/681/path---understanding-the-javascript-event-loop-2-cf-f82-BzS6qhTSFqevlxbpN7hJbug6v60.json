@@ -1,1 +1,0 @@
-{"data":{"markdownRemark":{"html":"<h1>Hello</h1>\n<pre><code>const thing = () => {};\n\nconst whatever = \"\"\n\nconst object = {\n  thing: \"string\"\n}\n</code></pre>","frontmatter":{"path":"/understanding-the-javascript-event-loop","title":"Understanding the JavaScript Event Loop"}}},"pageContext":{}}
