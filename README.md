@@ -1,3 +1,5 @@
+This version of my blog has been deprecated. New version here: https://github.com/saylerb/blog
+
 # gatsby-starter-default
 
 The default Gatsby starter.
