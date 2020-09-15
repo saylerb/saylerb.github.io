@@ -7,7 +7,10 @@ import styles from "./styles.css";
 
 const IndexPage = () => (
   <Layout>
-    <p>Welcome to my old personal site. How did you get here? Check out my new site here: <a href="https://www.saylerb.com">saylerb.com</a></p>
+    <p>
+      Welcome to my old personal site. How did you get here? Check out my new
+      site here: <a href="https://www.saylerb.com">saylerb.com</a>
+    </p>
     <StaticQuery
       query={graphql`
         query BlogPostQuery {
